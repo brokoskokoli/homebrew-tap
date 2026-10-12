@@ -6,13 +6,13 @@ browses the whole folder in Finder order: HEIC, AVIF, JPEG XL, RAW, HDR, culling
 ## Install
 
 ```sh
-brew install --cask brokoskokoli/lumaflip/lumaflip
+brew install --cask brokoskokoli/tap/lumaflip
 ```
 
 or
 
 ```sh
-brew tap brokoskokoli/lumaflip
+brew tap brokoskokoli/tap
 brew install --cask lumaflip
 ```
 

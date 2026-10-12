@@ -17,17 +17,17 @@ jobs:
       HOMEBREW_NO_INSTALL_CLEANUP: "1"
       HOMEBREW_NO_ENV_HINTS: "1"
     steps:
-      # Taps this checkout as brokoskokoli/lumaflip.
+      # Taps this checkout as brokoskokoli/tap.
       - uses: Homebrew/actions/setup-homebrew@eb02c69dbabdb66ff183c614f4ce7ab3c077592c # main 2026-10-10
 
       - name: Style
-        run: brew style --cask brokoskokoli/lumaflip/lumaflip
+        run: brew style --cask brokoskokoli/tap/lumaflip
 
       - name: Audit (online - URL, checksum, livecheck)
-        run: brew audit --cask --online --strict brokoskokoli/lumaflip/lumaflip
+        run: brew audit --cask --online --strict brokoskokoli/tap/lumaflip
 
       - name: Livecheck
-        run: brew livecheck --cask brokoskokoli/lumaflip/lumaflip
+        run: brew livecheck --cask brokoskokoli/tap/lumaflip
 
       - name: Download and verify the checksum
-        run: brew fetch --cask brokoskokoli/lumaflip/lumaflip
+        run: brew fetch --cask brokoskokoli/tap/lumaflip

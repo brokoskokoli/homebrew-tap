@@ -1,7 +1,13 @@
-# Homebrew tap for Lumaflip
+# brokoskokoli's Homebrew tap
 
-[Lumaflip](https://github.com/brokoskokoli/lumaflip) is a fast, open-source image viewer that
-browses the whole folder in Finder order: HEIC, AVIF, JPEG XL, RAW, HDR, culling with XMP ratings.
+Casks for apps by [brokoskokoli](https://github.com/brokoskokoli). Install any of them with
+`brew install --cask brokoskokoli/tap/<app>`.
+
+| App | Description | Install |
+|---|---|---|
+| [Lumaflip](https://github.com/brokoskokoli/lumaflip) | Fast, open-source image viewer that browses the whole folder in Finder order: HEIC, AVIF, JPEG XL, RAW, HDR, culling with XMP ratings | `brew install --cask brokoskokoli/tap/lumaflip` |
+
+# Lumaflip
 
 ## Install
 

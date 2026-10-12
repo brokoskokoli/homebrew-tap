@@ -23,7 +23,7 @@ jobs:
       - name: Style
         run: brew style --cask brokoskokoli/tap/lumaflip
 
-      - name: Audit (online: URL, checksum, livecheck)
+      - name: Audit (online - URL, checksum, livecheck)
         run: brew audit --cask --online --strict brokoskokoli/tap/lumaflip
 
       - name: Livecheck

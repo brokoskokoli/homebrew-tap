@@ -1,6 +1,6 @@
 cask "altswitch" do
-  version "1.0.1"
-  sha256 "003b5f60e0df433d2deda9211c63ca98992584b545ed3b82221e4355aeca7810"
+  version "1.0.2"
+  sha256 "479219e0b1e6dcdba081c195591c16f77ce22965a5e1c2604b5074c8885f9540"
 
   url "https://github.com/brokoskokoli/altswitch/releases/download/v#{version}/AltSwitch-#{version}.dmg"
   name "AltSwitch"
